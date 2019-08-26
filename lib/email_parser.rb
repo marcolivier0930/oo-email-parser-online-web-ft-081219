@@ -14,6 +14,5 @@ class EmailAddressParser
  def parse
     # binding.pry 
     emails.split(/[, ]/).reject { |c| c.empty? }.uniq
-    
  end
 end
